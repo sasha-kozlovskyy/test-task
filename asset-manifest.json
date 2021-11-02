@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/test-task/static/css/main.038a575d.chunk.css",
+    "main.js": "/test-task/static/js/main.c57d735d.chunk.js",
+    "main.js.map": "/test-task/static/js/main.c57d735d.chunk.js.map",
+    "runtime-main.js": "/test-task/static/js/runtime-main.d603ef46.js",
+    "runtime-main.js.map": "/test-task/static/js/runtime-main.d603ef46.js.map",
+    "static/js/2.fa620e2c.chunk.js": "/test-task/static/js/2.fa620e2c.chunk.js",
+    "static/js/2.fa620e2c.chunk.js.map": "/test-task/static/js/2.fa620e2c.chunk.js.map",
+    "static/js/3.911444a9.chunk.js": "/test-task/static/js/3.911444a9.chunk.js",
+    "static/js/3.911444a9.chunk.js.map": "/test-task/static/js/3.911444a9.chunk.js.map",
+    "index.html": "/test-task/index.html",
+    "static/css/main.038a575d.chunk.css.map": "/test-task/static/css/main.038a575d.chunk.css.map",
+    "static/js/2.fa620e2c.chunk.js.LICENSE.txt": "/test-task/static/js/2.fa620e2c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/test-task/static/media/background.69967ff3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d603ef46.js",
+    "static/js/2.fa620e2c.chunk.js",
+    "static/css/main.038a575d.chunk.css",
+    "static/js/main.c57d735d.chunk.js"
+  ]
+}
