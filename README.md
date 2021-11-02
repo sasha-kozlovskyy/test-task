@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Register form app with validation
+
+- [DEMO LINK](https://sasha-kozlovskyy.github.io/test-task/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

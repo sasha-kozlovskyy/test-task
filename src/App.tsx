@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import { Button } from './components/Button';
+import { Form } from './components/Form';
 
-function App() {
+
+const App: React.FC = () => {
+  const [ press, setPress ] = useState<boolean>(false);
+  const [ success, setSuccess ] = useState<boolean>(false);
+  const [ closeSuccessMessage, setCloseSuccessMessage ] = useState<boolean>(false);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="form-wrapper">
+      {!success ? (
+        <>
+        <Button press={press} setPress={setPress} />
+        <Form press={press} setSuccess={setSuccess} />
+        </>
+      ) : (
+        <div className={`success ${closeSuccessMessage ? 'close' : ''}`}>
+          <button className="close-successMessage" onClick={() => setCloseSuccessMessage(true)}>x</button>
+          <span>Congratulations, you are successfully registered</span>
+        </div>
+      )}
     </div>
   );
 }
