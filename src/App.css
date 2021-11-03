@@ -42,10 +42,10 @@
 .success {
   position: relative;
   width: 300px;
-  margin: 100px 20px;
+  margin: 300px 20px;
   background-color: azure;
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
   color: black;
   line-height: 36px;
@@ -68,4 +68,9 @@
 
 .close {
   visibility: hidden;
+}
+
+.message {
+  display: block;
+  padding: 30px 10px;
 }

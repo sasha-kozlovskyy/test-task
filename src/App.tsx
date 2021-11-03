@@ -19,7 +19,7 @@ const App: React.FC = () => {
       ) : (
         <div className={`success ${closeSuccessMessage ? 'close' : ''}`}>
           <button className="close-successMessage" onClick={() => setCloseSuccessMessage(true)}>x</button>
-          <span>Congratulations, you are successfully registered</span>
+          <span className="message">Congratulations, you are successfully registered</span>
         </div>
       )}
     </div>
